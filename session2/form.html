@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form autocomplete="off">
+        <fieldset>
+            <legend>registration form</legend>
+        <div>
+            <label for="fName">first name</label>
+            <input type="text" id="fName" name="fName" required placeholder="enter your first name">
+        </div>
+        <div>
+            <label for="lName">last name</label>
+            <input type="text" id="lName" name="lName" required placeholder="enter your last name">
+        </div>
+        <div>
+            <label for="email">email</label>
+            <input type="email" id="email" pattern="[A-Za-z]+@[a-z]+\.[a-z]+" name="email" required placeholder="enter your email">    
+        </div>
+        <div>
+            <label for="password">password</label>
+            <input type="password" id="password" pattern="[A-Za-z0-9]+[!@#$%^&*-+]+" name="password" required title="password must contain at least one letter, one number, and one special character">
+        </div>
+        <div>
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="female">female</label>
+            <input type="radio" name="gender" id="female" value="female">
+        </div>
+        <div>
+            <label for="phone">phone number</label>
+            <input type="text" id="phone" name="phone" pattern="[012|011|010|015][0-9]{10}" required placeholder="enter your phone number">
+        </div>
+        <div>
+            <label for="courses">courses</label>
+            <select id="courses" name="courses" required>
+                <option value="0" disabled selected>select a course</option>
+                <option value="html">html</option>
+                <option value="css">css</option>
+                <option value="javascript">javascript</option>
+            </select>
+        </div>
+        <div>
+            <label for="age">age</label>
+            <input type="number" id="age" name="age" min="18" max="60" required placeholder="enter your age">
+        </div>
+        <div>
+            <label for="id">id</label>
+            <input type="number" id="id" name="id" pattern="[0-9]+" length="7" required placeholder="enter your id">
+        </div>
+        <div>
+            <label for="color">color</label>
+            <input type="color" id="color" name="color" required>
+        </div>
+        <div>
+            <label for="file">upload file</label>
+            <input type="file" name="file" id="file" multiple accept=".png" required>
+        </div>
+        <div>
+            <label for="date">date</label>
+            <input type="date" name="date" id="date" required>
+        </div>
+        <div>
+            <label for="country">search for country</label>
+            <input type="text" name="country" id="country" list="country">
+            <datalist id="country">
+                <option value="egypt">
+                <option value="usa">
+                <option value="france">
+                <option value="germany">
+            </datalist>
+        </div>
+        <fieldset>
+            <legend>enter your message</legend>
+        <div>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="enter your message"></textarea>
+            <button type="reset">reset</button>
+        </div>
+        </fieldset>
+        <div>
+            <button type="submit">registration</button>
+        </div>
+        <div>
+            <button type="submit">login</button>
+        </div>
+</fieldset>
+    </form>
+</body>
+</html>
