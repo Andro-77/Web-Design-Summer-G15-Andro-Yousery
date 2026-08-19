@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.text-center{
+    text-align: center;
+
+}
+
+.text-color{
+    color: white;
+}
+
+.hr-main{
+    border-color: white;
+    border-width: thin;
+    border-style:solid;
+    margin: 7% 0% ;
+    width: 15%;
+    /* padding: 1%; */
+}
+
+/* section bg-img */
+
+.bg-img{
+    background-image: url(../images/paris-louvre.jpg);
+    /* height: 600px; */
+    background-repeat: no-repeat;
+    /* background-color: bisque; */
+    /* background-position-x: center;
+    background-position-y: center; */
+    background-size: 100% 100%;
+
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.350);
+    /* height: 100%; */
+}
+
+.container1{
+    /* margin: 10%; */
+    padding: 6%;
+     /* display: inline-block; */
+
+}
+
+h1{
+font-size: 50px;
+}
+
+.h3-text{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.p-margin{
+    margin: 2% 0;
+}
+
+.download-btn{
+    /* background-color: rgba(67, 60, 60, 0); */
+     background: transparent;
+    border: 2px solid rgb(223, 222, 222);
+    padding: 1%;
+    color: white;
+    margin-top: 5%;
+}
+
+.f-it-size{
+    /* font-size: 30px; */
+    font-weight: lighter;
+}
+
+.bg-form{
+    background-color: white;
+    margin-bottom: 5%;
+}
+
+.bg-title-form{
+    background-color: rgb(245, 245, 245);
+}
+
+.title-text-color{
+    color: black;
+    text-align: center;
+    padding: 3% 0;
+}
+
+.f-size{
+    font-weight: bold;
+}
+
+.f-color{
+    color: darkorange;
+}
+
+.border-down{
+    /* border: 0 2px 0 0 solid rgb(156, 155, 155); */
+    /* background-color: rgb(231, 231, 231); */
+    border: 0;
+    border-bottom: 0.5px solid lightgray;
+}
+
+.c1-inline-block{
+    display: inline-block;
+    width: 40%;
+    margin: 0 5%;
+}
+
+.margin-top{
+    margin-top: 5%;
+}
+
+.form-btn{
+    margin-top: 5%;
+    color: white;
+    background-color: darkorange;
+    width: 100%;
+    padding: 3% 0;
+}
+
+.form{
+    width: 30%;
+    margin-left: 10%;
+}
+
+.padding-input{
+    padding-left: 16%;
+    margin: 8% 0;
+}
+
+
+/* section Social Media */
+
+.social-media{
+    /* display: inline-block; */
+}
+
+.container{
+    /* display: inline-block; */
+    /* background-color: aquamarine; */
+    padding: 1% 0;
+}
+
+.social-text{
+    /* display: inline-block; */
+    width: 20%;
+    vertical-align: middle;
+}
+
+h2{
+    margin-bottom: 2%;
+}
+
+.icons{
+    width: 60%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    /* margin-bottom: 30%; */
+}
+
+.icon{
+    width: 5%;
+    /* background-color: darkcyan; */
+    display: inline;
+    font-size: 45px;
+    margin: 0 2%;
+    text-align: center;
+    /* color: darkgray; */
+}
+
+.icon-p-color{
+    color: darkgray;
+}
+
+/* section section-tabs */
+
+.container2{
+    padding: 4%;
+    background-color: #f3f3f3;
+}
+
+.tabs{
+width: 10%;
+display: inline-block;
+/* padding: 1%; */
+vertical-align: top;
+/* margin-top: 3%; */
+}
+
+.tab1{
+    background-color: darkorange;
+    text-align: center;
+    color: white;
+    margin: 0% 0;
+    padding: 30%;
+    border-bottom: 20px solid darkorange;
+}
+
+.tab2{
+   background-color: black;
+    text-align: center;
+    color: white;
+    padding: 30%;
+    border-top: 2px solid;
+    border-bottom: 20px solid black;
+}
+
+.t-tab{
+    display: inline-block;
+    width: 30%;
+    margin-left: 9%;
+}
+
+.img-icon{
+    display: inline-block;
+    width: 35%;
+    vertical-align: top;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.h3-tab{
+    width: auto;
+    margin-bottom: 5%;
+}
+
+.p-tab{
+    margin: 3% 0;
+}
+
+.tab-btn{
+    width: auto;
+    padding: 2% 3%;
+    border-radius: 5%;
+}
+
+.box-reflect{
+
+    -webkit-box-reflect: below;
+    font-size: 30px;
+}
