@@ -1,0 +1,566 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.bg-nav {
+  background-color: bisque;
+}
+
+.container {
+  padding: 5%;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.luxestate {
+  font-size: 25px;
+  width: 20%;
+  justify-content: center;
+}
+
+.h6-text {
+}
+
+.ul-list {
+  width: 50%;
+  justify-content: space-between;
+}
+
+.ul-in-the-middle {
+  /* list-style: none; */
+  justify-content: center;
+}
+
+.list-style {
+  list-style: none;
+}
+
+.margin {
+  margin-right: 5%;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.join-get {
+  width: 20%;
+}
+
+.ul-right-side {
+}
+
+.bg-join-us {
+  background-color: white;
+  width: 100%;
+}
+
+.bg-contact-us {
+  background-color: yellow;
+  border-radius: 10px;
+  padding: 1% 3%;
+  width: 100%;
+}
+
+.bg-img {
+  background-image: url(../images/paris-sacre-coeur.jpg);
+}
+
+.container3 {
+  width: 100%;
+  padding: 5% 10%;
+}
+
+.text-statistics {
+  width: 50%;
+  padding: 2%;
+}
+
+.statistics-paragraph {
+  color: gray;
+  margin: 10% 0;
+}
+
+.statistics-numbers {
+  width: 50%;
+  padding: 2%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.bg-card {
+  background-color: antiquewhite;
+}
+
+.card-statistics-numbers {
+  white-space-collapse: break-spaces;
+  width: 40%;
+  text-align: center;
+  margin: 2% 5%;
+  align-content: center;
+}
+
+.bg-color {
+  background-color: #eaeaea;
+}
+
+.container4 {
+  padding: 2% 5%;
+}
+
+.t-cards {
+  font-size: 50px;
+  margin-bottom: 5%;
+}
+
+.cards {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.card {
+  background-color: white;
+  width: 30%;
+}
+
+.p-card {
+  margin: 5%;
+}
+
+.card img {
+  width: 100%;
+}
+
+.container5 {
+  width: 80%;
+  margin: 4%;
+}
+
+.services {
+  margin: 5% 10%;
+}
+
+.services h2 {
+  font-size: 40px;
+  color: black;
+}
+
+.p-services {
+  color: gray;
+}
+
+.s-img {
+  justify-content: space-around;
+}
+
+.services-img {
+  width: 40%;
+}
+
+.services-img img {
+  width: 100%;
+}
+
+.services-paragraphs {
+  width: 40%;
+}
+
+.renting {
+}
+
+.selling {
+  margin: 10% 0;
+}
+
+.building {
+}
+
+.s-h3 {
+  color: black;
+  font-size: 30px;
+}
+
+.s-paragraph {
+  color: gray;
+  margin: 2% 0;
+}
+
+.container6 {
+  width: 80%;
+  margin: 5% 10%;
+}
+
+.super-margin {
+  margin: 5% 0;
+}
+
+.t-padding {
+  padding: 0 5%;
+}
+
+.super1 {
+  width: 100%;
+  align-items: center;
+}
+
+.img-s1 {
+  width: 50%;
+  position: relative;
+}
+
+.img-s1 img {
+  width: 90%;
+}
+
+.text-s1 {
+  width: 50%;
+}
+
+.text-s1 h4 {
+  color: black;
+  font-size: 20px;
+}
+
+.text-s1 p {
+  margin: 5% 0;
+  color: gray;
+}
+
+.style-location {
+  background-color: gold;
+  color: black;
+  padding: 4%;
+  position: absolute;
+  bottom: -10px;
+  left: 100px;
+}
+
+.margin-location-2 {
+  margin: 0 30%;
+}
+
+.color-icon-super {
+  color: white;
+}
+
+.style-location i {
+  margin-right: 5%;
+}
+
+.super2 {
+  width: 100%;
+  align-items: center;
+}
+
+.text-s2 {
+  width: 50%;
+  margin-top: 5%;
+}
+
+.text-s2 h4 {
+  color: black;
+  font-size: 20px;
+  text-align: end;
+}
+
+.text-s2 p {
+  margin: 5% 0;
+  color: gray;
+}
+
+.super3 {
+  width: 100%;
+  align-items: end;
+}
+
+.text-s3 {
+  width: 50%;
+  margin-top: 5%;
+}
+
+.text-s3 h4 {
+  color: black;
+  font-size: 20px;
+}
+
+.text-s3 p {
+  margin: 5% 0;
+  color: gray;
+}
+
+.s-button {
+  margin-top: 7%;
+  width: 40%;
+}
+
+.s-button button {
+  color: white;
+  background-color: darkslategray;
+  padding: 10% 15%;
+}
+
+.bg-footer {
+  background-color: dimgray;
+}
+
+.container7 {
+  width: 80%;
+  margin: 0 10%;
+  padding: 2% 0;
+}
+
+.subscribe {
+  background-color: white;
+  padding: 2% 10%;
+}
+
+.p-subscribe {
+}
+
+.bg-nav {
+  background-color: white;
+}
+
+.bg-nav .container {
+  align-items: center;
+  padding: 2% 5%;
+}
+
+.luxestate {
+  width: 20%;
+  justify-content: flex-start;
+}
+
+.luxestate h6 {
+  font-size: 20px;
+  color: #1f3d43;
+}
+
+.ul-list {
+  width: 55%;
+}
+
+.ul-in-the-middle {
+  width: 100%;
+  align-items: center;
+}
+
+.ul-in-the-middle li {
+  margin-right: 4%;
+}
+
+.last-nav-item {
+  margin-right: 0;
+}
+
+.ul-in-the-middle a {
+  text-decoration: none;
+  color: #1f3d43;
+  font-size: 13px;
+}
+
+.get-started {
+  width: 20%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.bg-join-us {
+  border: none;
+  background-color: white;
+  padding: 8% 10%;
+  color: #1f3d43;
+}
+
+.bg-contact-us {
+  border: none;
+  background-color: #ffd200;
+  border-radius: 0;
+  padding: 8% 6%;
+  color: #1f3d43;
+}
+
+.bg-view-all {
+  padding: 2% 4%;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 15px;
+  margin-left: 5%;
+}
+
+.bg-img {
+  width: 80%;
+  margin-left: 20%;
+  min-height: 50%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.container1 {
+  width: 75%;
+  margin-left: -30%;
+  padding-top: 8%;
+  padding-bottom: 8%;
+  position: relative;
+  z-index: 2;
+}
+
+.container1 h1 {
+  color: #1f3d43;
+  font-size: 45px;
+width: 50%;
+    margin-left: 25%;
+    margin-bottom: 3%;
+}
+
+.hero-search {
+  margin-left: 20%;
+  width: 55%;
+  display: flex;
+}
+
+.hero-search input {
+  width: 75%;
+  padding: 5%;
+  border: none;
+  outline: none;
+  background-color: white;
+}
+
+.hero-search button {
+  width: 25%;
+  padding: 5%;
+  border-radius: 0;
+  background-color: #ffd200;
+  color: #1f3d43;
+}
+
+.hero-info {
+  position: absolute;
+    bottom: 0;
+    margin-left: 123%;
+    background-color: #ffd200;
+    padding: 2% 5%;
+    gap: 3%;
+    min-width: 50%;
+}
+
+.hero-info div {
+  display: flex;
+  align-items: center;
+  gap: 2%;
+}
+
+.hero-info i {
+  color: white;
+}
+
+.apartments-search {
+  margin-top: 3%;
+  align-items: center;
+}
+
+.apartments-search input {
+  width: 35%;
+  padding: 2%;
+  border: none;
+  outline: none;
+}
+
+.apartments-search .bg-contact-us {
+  width: 12%;
+  padding: 2%;
+  border-radius: 0;
+}
+
+.apartments-button {
+  margin-left: 3%;
+  padding: 2% 4%;
+  background-color: white;
+  border: 1px solid #ddd;
+}
+
+.bg-footer {
+  background-color: #1f3d43;
+  color: white;
+}
+
+.container7 {
+  width: 80%;
+  margin: auto;
+  padding: 5% 0;
+}
+
+.footer-head {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.h2-footer {
+  width: 40%;
+  font-size: 25px;
+  line-height: 1.2;
+}
+
+.subscribe {
+  width: 40%;
+  padding: 2%;
+  background-color: white;
+  color: gray;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subscribe i {
+  color: #1f3d43;
+}
+
+.container7 hr {
+  margin: 5% 0;
+  border-top: 1px solid #557075;
+}
+
+.footer-links {
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.container7 h5 {
+  font-size: 18px;
+}
+
+.container7 ul {
+  gap: 3%;
+}
+
+.container7 li {
+  font-size: 11px;
+}
+
+.footer-bottom {
+  margin-top: 5%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.lists {
+  width: 55%;
+  justify-content: space-between;
+}
+
+.lists ul {
+  display: block;
+}
+
+.lists li {
+  margin-bottom: 3%;
+  color: #b8c5c7;
+}
+
