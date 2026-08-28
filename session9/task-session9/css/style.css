@@ -1,0 +1,42 @@
+.hero {
+  background-image: url(../images/dog.png);
+  background-size: 120% 120%;
+  background-position: left;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.logo-dog-foot {
+  position: relative;
+  width: 30px;
+  height: 15px;
+  font-size: 10px;
+}
+
+.icon-dog-foot-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.icon-dog-foot-2 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.bg-color {
+  background-color: black;
+}
+
+.form {
+  width: 50%;
+}
+
+.text-area textarea {
+  resize: none;
+}
+
+.cards-get-in-touch {
+  width: 50%;
+}
