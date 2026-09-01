@@ -1,19 +1,19 @@
 
 
-// var myForm = document.querySelector('#myForm');
-// var users = []
-// myForm.addEventListener('submit' , (e)=>{
-//     e.preventDefault();
-//     console.log(e)
-//     console.log(e.target.elements.email.value)
-//     console.log(e.target.elements.name.value)
-//     var user = {
-//         name: e.target.elements.name.value,
-//         email: e.target.elements.email.value,
-//     }
-//     users.push(user)
-//     console.table(users)
-// })
+var myForm = document.querySelector('#myForm');
+var users = []
+myForm.addEventListener('submit' , (e)=>{
+    e.preventDefault();
+    console.log(e)
+    console.log(e.target.elements.email.value)
+    console.log(e.target.elements.name.value)
+    var user = {
+        name: e.target.elements.name.value,
+        email: e.target.elements.email.value,
+    }
+    users.push(user)
+    console.table(users)
+})
 
 
 
@@ -49,6 +49,28 @@ form.addEventListener('submit', function (event) {
 
 
 
+
+
+var image = document.getElementById('myImage');
+var button = document.getElementById('changeBtn');
+
+var images = [
+    'images/paris-louvre.jpg',
+    'images/paris-rue-cremieux.jpg'
+];
+
+var index = 0;
+
+button.addEventListener('click', function () {
+
+    index++;
+
+    if (index === images.length) {
+        index = 0;
+    }
+
+    image.src = images[index];
+});
 
 
 
